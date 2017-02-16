@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Uppgift2</title>
+</head>
+
+<body>
+	
+    <p>Välkommen till sidan, skriv in ett valfrit tal: <b id="boldStuff">Ditt tal</b> <p>
+    <input type="button" onClick="BytTal()" value="Byt Tal"/>
+    
+    <script type="text/javascript">
+	function BytTal(){
+		var mittTal=prompt("Skriv ditt tal", "Tal");
+		var mittTal=parseInt(mittTal);
+		if(isNaN(mittTal)) {
+			parseInt(alert("Det är inte ett nummer! Försök igen!"));
+			BytTal();
+			
+		}
+		else if(mittTal){			
+		document.getElementById("boldStuff").innerHTML = mittTal;
+		}
+	
+	}
+	</script>
+	
+</body>
+</html>
