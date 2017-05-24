@@ -375,6 +375,21 @@ transition: all .1s ease-in-out;
 	font-weight:bold;
 	text-align:center;
 }
+
+@media (max-width: 1900px) {
+#KällorBox{
+	background-color:#009;
+	width:350px;
+	height:600px; 
+	margin-left:40%;
+	border-radius:5%;
+	opacity:0.7;
+	color:#FFF;
+	position:absolute;
+	top:200px;
+}	
+}
+
 @media (max-width: 1770px) {
 /*Spelare*/
 .slideshow-container{
@@ -407,6 +422,19 @@ transition: all .1s ease-in-out;
 	color:#FFF;
 	position:absolute;
 	top:200px;
+}
+	
+#KällorBox{
+	background-color:#009;
+	width:350px;
+	height:600px; 
+	margin-left:44%;
+	border-radius:5%;
+	opacity:0.7;
+	color:#FFF;
+	position:absolute;
+	top:200px;
+	
 }
 }
 
@@ -477,6 +505,19 @@ transition: all .1s ease-in-out;
 	width:1000px;
 	height:600px;
 	margin-left:22%;
+	border-radius:5%;
+	opacity:0.7;
+	color:#FFF;
+	position:absolute;
+	top:200px;
+	
+}
+	
+#KällorBox{
+	background-color:#009;
+	width:350px;
+	height:600px; 
+	margin-left:40%;
 	border-radius:5%;
 	opacity:0.7;
 	color:#FFF;
@@ -555,6 +596,19 @@ transition: all .1s ease-in-out;
 	width:1000px;
 	height:600px;
 	margin-left:18%;
+	border-radius:5%;
+	opacity:0.7;
+	color:#FFF;
+	position:absolute;
+	top:200px;
+	
+}
+
+#KällorBox{
+	background-color:#009;
+	width:350px;
+	height:600px; 
+	margin-left:38%;
 	border-radius:5%;
 	opacity:0.7;
 	color:#FFF;
@@ -922,6 +976,20 @@ transition: all .1s ease-in-out;
   position: relative;
   margin-left:20%;
   margin-top:20px;
+}
+	
+/*Källor*/
+#KällorBox{
+	background-color:#009;
+	width:30%;
+	height:fit-content; 
+	margin-left:35%;
+	border-radius:5%;
+	opacity:0.7;
+	color:#FFF;
+	position:absolute;
+	top:17%;
+	
 }
 }
 
