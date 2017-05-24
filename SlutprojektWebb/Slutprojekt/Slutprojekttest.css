@@ -1,0 +1,434 @@
+@charset "utf-8";
+/* CSS Document */
+#storbox{
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+
+body {
+	overflow:hidden;
+	margin: 0;
+	background-image:url(backgurnd.jpg);
+	background-color: #ecf0f1;
+  
+}
+
+/* Background*/
+html { 
+  background: url(backgurnd.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* nav*/
+#menu{ 
+	background: #009; 
+	color: #FFF; 
+	height: 50px; 
+	border-bottom: 2px solid #DDD; 
+} 
+
+#menu ul,#menu li{
+	margin:0 auto;padding:0 0;list-style:none;
+}
+ 
+#menu ul{
+	height: 45px;
+	width: 45%;
+	text-align: center;
+	margin-left: 32.5%;
+}
+ 
+#menu li{
+	float:left;display:inline;position:relative;font:bold 0.9em ;
+	margin-top:5px;
+} 
+#menu a{
+	display: block; 
+	line-height: 40px; 
+	padding: 0 14px; 
+	text-decoration: none; 
+	color: #FFF;
+}
+
+#menu li a:hover{ 
+color: #fff; 
+-webkit-transition: all .1s ease-in-out; 
+-moz-transition: all .1s ease-in-out; 
+-ms-transition: all .1s ease-in-out; 
+-o-transition: all .1s ease-in-out; 
+transition: all .1s ease-in-out; 
+background: #09F; 
+} 
+
+#menu input{display:none;margin:0 0;padding:0 0;width:80px;height:30px;opacity:0;cursor:pointer} 
+#menu label{font:bold 30px;display:none;width:35px;height:36px;line-height:36px;text-align:center} 
+#menu label span{font-size:16px;position:absolute;left:35px} 
+
+#menu ul.menus{ 
+height: auto; 
+overflow: hidden; 
+width: 170px; 
+background: #999; 
+position: absolute; 
+z-index: 99; 
+display: none; 
+} 
+
+#menu ul.menus li{
+display: block; 
+width: 100%; 
+font:normal 0.8em; 
+text-transform: none; 
+text-shadow: none; 
+} 
+
+#menu ul.menus a{ 
+color: #FFF; 
+line-height: 35px; 
+} 
+
+#menu li:hover ul.menus{display:block}
+
+#menu ul.menus a:hover{ 
+background: #c0c0c0; 
+color: #FFF; 
+-webkit-transition: all .1s ease-in-out; 
+-moz-transition: all .1s ease-in-out; 
+-ms-transition: all .1s ease-in-out; 
+-o-transition: all .1s ease-in-out; 
+transition: all .1s ease-in-out; 
+}
+
+/*slut nav*/
+
+#Banner{
+	margin-left:600px;
+	margin-top:30px;
+}
+
+
+/*Index*/
+#Badmintonbanaram{
+	margin-top:40px;
+	margin-left:600px;
+	background-image:url(Badmintonbanaram.jpg);
+	width:231px;
+	height:284px;
+	float:left;
+}
+
+#Badmintonrackram{
+	margin-top:50px;
+	margin-left:200px;
+	background-image:url(Badmintonrackram.jpg);
+	width:263px;
+	height:184px;
+	float:left;
+}
+
+#Badmintonvaskaram{
+	clear:left;
+	margin-top:150px;
+	margin-left:500px;
+	background-image:url(Badmintonvaskaram.jpg);
+	width:238px;
+	height:164px;
+	float:left;
+}
+
+#Badmintonbollram{
+	margin-top:50px;
+	margin-left:150px;
+	background-image:url(Badmintonbollram.jpg);
+	width:215px;
+	height:306px;
+	float:left;
+}
+
+#Badmintonspelareram{
+	margin-top:80px;
+	margin-left:140px;
+	background-image:url(Badmintonspelareram.jpg);
+	width:164px;
+	height:233px;
+	float:left;
+}
+
+/*Spelare*/
+.slideshow-container{
+  max-width: 500px;
+  position: relative;
+  margin-left: 700px;
+  margin-top:70px;
+}
+
+.txtbox {
+    background-color: #009;
+    width: inherit;
+    height: fit-content;
+    margin-left: inherit;
+    border-radius: 5%;
+	padding: 10px;
+    opacity: 0.7;
+    color: #FFF;
+}
+
+.txtbox h1{
+	color:#FC0;
+}
+ 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 28%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+ 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+ 
+ 
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+ 
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.playerimg {
+	width:100%;
+}
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+ 
+.active, .dot:hover {
+  background-color: #717171;
+}
+ 
+ 
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+ 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+ 
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*Regler*/
+#ReglerBox{
+	background-color:#009;
+	width:1000px;
+	height:600px;
+	margin-left:450px;
+	border-radius:5%;
+	opacity:0.7;
+	color:#FFF;
+	position:absolute;
+	top:200px;
+	
+}
+
+#ReglerBox h1{
+	padding-top:40px;
+	text-align:center;
+	color:#FC0;
+}
+
+#ReglerBox p{
+	padding-left:20px;
+	padding-right:10px;
+	font-weight:bold;
+}
+
+#ReglerBox img{
+	float:right;
+	padding-top:50px;
+	padding-left:10px;
+}
+
+/*Historia*/
+#HistoriaBox{
+	background-color:#009;
+	width:1000px;
+	height: fit-content;
+	margin-left:450px;
+	border-radius:5%;
+	opacity:0.7;
+	color:#FFF;
+	position:absolute;
+	top:200px;
+	
+}
+
+#HistoriaBox h1{
+	padding-top:40px;
+	text-align:center;
+	color:#FC0;
+}
+
+#HistoriaBox p{
+	padding-left:20px;
+	padding-right:20px;
+	font-weight:bold;
+	-webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 3; /* Firefox */
+    columns: 200px 2;
+}
+
+#HistoriaBox img{
+	float:right;
+	padding-top:50px;
+	padding-left:10px;
+}
+
+/*Ranking*/
+#RankingBox{
+	background-color:#009;
+	width:1000px;
+	height:600px;
+	margin-left:450px;
+	border-radius:5%;
+	opacity:0.7;
+	color:#FFF;
+	position:absolute;
+	top:200px;
+	
+}
+
+#RankingBox h1{
+	padding-top:40px;
+	text-align:center;
+	color:#FC0;
+}
+
+#RankingBox img{
+	float:left;
+	margin-right:70px;
+	padding-top:50px;
+	padding-left:75px;
+}
+
+/*Källor*/
+#KällorBox{
+	background-color:#009;
+	width:1000px;
+	height:600px;
+	margin-left:450px;
+	border-radius:5%;
+	opacity:0.7;
+	color:#FFF;
+	position:absolute;
+	top:200px;
+	
+}
+
+#KällorBox h1{
+	padding-top:40px;
+	text-align:center;
+	color:#FC0;
+}
+
+#KällorBox p{
+	padding-left:40px;
+	padding-right:10px;
+	font-weight:bold;
+}
+
+
+
+@media (max-width: 800px) {
+  
+  
+  #menu{position:relative;} 
+  #menu ul{background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none;color:#FFF; width:100%; margin-left:0;} 
+  #menu ul.menus{width:100%;position:static;padding:0;margin:0;} 
+  #menu li{display:block;float:none; max-width:100%; font:normal 0.8em;} 
+  #menu input,#menu label{position:absolute;top:5px;left:0;display:block} 
+  #menu input{z-index:4} 
+  #menu input:checked + label{color:white} 
+  #menu input:checked ~ ul{display:block}
+/*Banner mobil*/
+#Banner{
+	margin-left:0px;
+	margin-top:40px;
+}
+
+#Banner img{
+	width:100%;
+	height:100%;
+}
+
+#Banner figure{
+	width: 100%;
+	padding: 0px;
+	margin: 0;	
+}
+
+/*Index mobil*/
+#Badmintonbanaram{
+	margin-top: 40px;
+	margin-left: 45px;
+	background-image: url(Badmintonbanaram.jpg);
+	width: 231px;
+	height: 284px;
+	float: left;
+}
+
+#Badmintonrackram{
+	margin-top: 20px;
+	margin-left: 30px;
+	background-image: url(Badmintonrackram.jpg);
+	width: 263px;
+	height: 184px;
+	float: left;
+}
+
+#Badmintonvaskaram{
+
+}
+
+#Badmintonbollram{
+
+}
+
+#Badmintonspelareram{
+
+}
+
+}
+
