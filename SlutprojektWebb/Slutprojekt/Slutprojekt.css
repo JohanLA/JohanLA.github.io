@@ -376,7 +376,7 @@ transition: all .1s ease-in-out;
 	text-align:center;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1450px) {
 body{
 	overflow:visible;
 }
