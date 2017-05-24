@@ -843,7 +843,7 @@ transition: all .1s ease-in-out;
 	background-color:#009;
 	width:30%;
 	height:fit-content;
-	margin-left:41%;
+	margin-left:34%;
 	border-radius:5%;
 	opacity:0.7;
 	color:#FFF;
@@ -935,6 +935,18 @@ transition: all .1s ease-in-out;
 	opacity:1;
 }
 
+/*Källor*/
+#KällorBox{
+	background-color:#009;
+	width:30%;
+	height:fit-content;
+	margin-left:36%;
+	border-radius:5%;
+	opacity:0.7;
+	color:#FFF;
+	position:absolute;
+	top:20%;
+}
 }
 
 @media (max-width: 850px) {
