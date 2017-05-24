@@ -375,6 +375,15 @@ transition: all .1s ease-in-out;
 	font-weight:bold;
 	text-align:center;
 }
+@media (max-width: 1770px) {
+/*Spelare*/
+.slideshow-container{
+  max-width: 500px;
+  position: relative;
+  margin-left:40%;
+  margin-top:20px;
+}
+}
 
 @media (max-width: 1700px) {
 #menu ul{
