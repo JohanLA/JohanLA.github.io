@@ -369,9 +369,10 @@ transition: all .1s ease-in-out;
 }
 
 #KällorBox p{
-	padding-left:40px;
+	padding-left:20px;
 	padding-right:10px;
 	font-weight:bold;
+	text-align:center;
 }
 
 @media (max-width: 1400px) {
