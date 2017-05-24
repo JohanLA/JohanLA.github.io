@@ -376,7 +376,7 @@ transition: all .1s ease-in-out;
 }
 
 @media (max-width: 1400px) {
-body{
+/*body{
 	overflow:visible;
 }
 
@@ -461,9 +461,9 @@ color: #FFF;
 -ms-transition: all .1s ease-in-out; 
 -o-transition: all .1s ease-in-out; 
 transition: all .1s ease-in-out; 
-}
+}*/
   
-/*Banner mobil*/
+/*Banner mobil
 #Banner{
 	margin-left:0px;
 	margin-top:20px;
@@ -478,7 +478,7 @@ transition: all .1s ease-in-out;
 	width: 100%;
 	padding-left: 31%;
 	margin: 0;	
-}
+}*/
 
 /*Index mobil*/
 #Badmintonbanaram{
