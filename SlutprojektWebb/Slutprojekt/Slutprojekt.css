@@ -616,7 +616,7 @@ transition: all .1s ease-in-out;
 }	
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1010px) {
 /*Menu*/
 #menu ul{
 	height: 45px;
