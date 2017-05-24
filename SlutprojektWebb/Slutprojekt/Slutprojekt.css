@@ -795,7 +795,7 @@ body{
 #RankingBox img{
 	float:left;
 	padding-top:5%;
-	padding-left:0%;
+	padding-left:5%;
 	width:100%;
 	padding-bottom:5%;
 	opacity:1;
