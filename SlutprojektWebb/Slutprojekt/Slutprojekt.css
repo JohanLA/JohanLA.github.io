@@ -622,13 +622,13 @@ transition: all .1s ease-in-out;
 	height: 45px;
 	width: auto;
 	text-align: center;
-	margin-left: 11.5%;
+	margin-left: 16.5%;
 }
 	
 /*Banner*/
 #Banner{
-	margin-left:0px;
-	margin-top:-120px;
+	margin-left:-120px;
+	margin-top:20px;
 }
 	
 /*Spelare*/
