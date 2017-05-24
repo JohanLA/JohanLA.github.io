@@ -404,6 +404,14 @@ transition: all .1s ease-in-out;
 	width:238px;
 	height:164px;
 }
+	
+/*Spelare*/
+.slideshow-container{
+  max-width: 500px;
+  position: relative;
+  margin-left:36%;
+  margin-top:20px;
+}
 }
 
 @media (max-width: 1500px) {
@@ -433,6 +441,14 @@ transition: all .1s ease-in-out;
 	background-image:url(Badmintonvaskaram.jpg);
 	width:238px;
 	height:164px;
+}
+	
+/*Spelare*/
+.slideshow-container{
+  max-width: 500px;
+  position: relative;
+  margin-left:37%;
+  margin-top:20px;
 }
 }
 
