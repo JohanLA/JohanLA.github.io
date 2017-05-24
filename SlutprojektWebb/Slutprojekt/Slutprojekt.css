@@ -465,8 +465,8 @@ transition: all .1s ease-in-out;
   
 /*Banner mobil*/
 #Banner{
-	margin-left:0px;
-	margin-top:-150px;
+	margin-left:-174px;
+	margin-top:20px;
 }
 
 #Banner img{
