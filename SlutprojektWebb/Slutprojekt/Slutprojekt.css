@@ -605,7 +605,6 @@ transition: all .1s ease-in-out;
 	color:#FFF;
 	position:absolute;
 	top:20%;
-	
 }
 
 #KällorBox p{
@@ -785,6 +784,7 @@ body{
 	padding-right:10%;
 	font-weight:bold;
 	word-wrap:break-word;
+	text-align:center;
 }
 
 }
