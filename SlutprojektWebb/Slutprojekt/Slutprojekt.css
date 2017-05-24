@@ -616,6 +616,17 @@ transition: all .1s ease-in-out;
 }	
 }
 
+@media (max-width: 1000px) {
+/*Spelare*/
+.slideshow-container{
+  max-width: 500px;
+  position: relative;
+  margin-left:30%;
+  margin-top:20px;
+}
+
+}
+
 @media (max-width: 800px) {
 body{
 	overflow:visible;
