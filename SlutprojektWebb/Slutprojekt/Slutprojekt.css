@@ -376,6 +376,57 @@ transition: all .1s ease-in-out;
 	text-align:center;
 }
 
+@media (max-width: 1700px) {
+#menu ul{
+	height: 45px;
+	width: auto;
+	text-align: center;
+	margin-left: 31.5%;
+}
+	
+#Banner{
+	margin-left:30%;
+	margin-top:20px;
+}
+	
+#Badmintonbanaram{
+	margin-top: 20px;
+	margin-left: 30%;
+	background-image: url(Badmintonbanaram.jpg);
+	width: 231px;
+	height: 284px;
+}
+
+#Badmintonvaskaram{
+	margin-top:100px;
+	margin-left:23%;
+	background-image:url(Badmintonvaskaram.jpg);
+	width:238px;
+	height:164px;
+}
+
+#Badmintonspelareram{
+	float:left;
+	margin-top:-220px;
+	margin-left:45%;
+	background-image:url(Badmintonspelareram.jpg);
+	width:164px;
+	height:233px;
+}
+
+#Badmintonbollram{
+	margin-top:-10px;
+	margin-left:30%;
+	background-image:url(Badmintonbollram.jpg);
+	width:215px;
+	height:306px;
+}
+}
+
+@media (max-width: 1600px) {
+	
+}
+
 @media (max-width: 1450px) {
 body{
 	overflow:visible;
