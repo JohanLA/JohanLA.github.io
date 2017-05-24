@@ -588,7 +588,7 @@ transition: all .1s ease-in-out;
 .slideshow-container{
   max-width: 500px;
   position: relative;
-  margin-left:38%;
+  margin-left:33%;
   margin-top:20px;
 }
 
@@ -677,6 +677,16 @@ transition: all .1s ease-in-out;
 }	
 }
 
+@media (max-width: 1250px) {
+/*Spelare*/
+.slideshow-container{
+  max-width: 500px;
+  position: relative;
+  margin-left:29%;
+  margin-top:20px;
+}
+}
+	
 @media (max-width: 1050px) {
 /*Menu*/
 #menu ul{
@@ -722,7 +732,7 @@ transition: all .1s ease-in-out;
 .slideshow-container{
   max-width: 500px;
   position: relative;
-  margin-left:30%;
+  margin-left:25%;
   margin-top:20px;
 }
 	
@@ -770,6 +780,13 @@ transition: all .1s ease-in-out;
 	background-image:url(Badmintonspelareram.jpg);
 	width:164px;
 	height:233px;
+}
+/*Spelare*/
+.slideshow-container{
+  max-width: 500px;
+  position: relative;
+  margin-left:20%;
+  margin-top:20px;
 }
 }
 
